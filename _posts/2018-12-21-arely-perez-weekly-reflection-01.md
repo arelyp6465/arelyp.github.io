@@ -13,10 +13,8 @@ i guess A grade I would expect out of this is a 3 since I did my program good.
 
 ## Current output
 
--   Insert an image that your program currently produces. _then delete this instruction_
-
 * * *
-![Flag](/images/final-flag.png)
+https://www.wescheme.org/view?publicId=eSVnixl1aZ
 * * *
 
 ## Describe your process.
@@ -42,11 +40,9 @@ AT first in the beginning of doing this i really didnt know what to do first. Th
 
 well what was so significant about this part of my program would be the beginning since i would make my life so easier when doing th size of ones shape not onlt was that significant but also how I shortened these function names. 
 * * *
-
 ``````
-
 * * *
-The code i had given above ewas a huge part in everything because i was showing how the codes can be shortned to makes one life easier when doing so. In each argument I had 
+The first few lines of my code would basically make ones life easier by changing the functions name and replacing with a nickname or a "variable". After doing that instead of putting the size number you would instead plug in the "SIZE". Same goes for the color that you are using it would affect my code a lot in a positive way.
 
 ## Program code
 ```
