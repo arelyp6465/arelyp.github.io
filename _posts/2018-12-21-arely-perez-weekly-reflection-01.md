@@ -8,8 +8,8 @@ Flag of _insert your country_ by _insert your name_
 My Flag Pakistan 
 
 ## Describe your program
-So in my flag you would be able to see how the crescent is on one side and the star is rotated in an angle the rectangle is\all green  
-A grade I would expect out of this is a 3. 
+So in my flag you would be able to see how the crescent is on one side its tilted and the star is rotated in an angle the rectangle is\all solid green.
+i guess A grade I would expect out of this is a 3 since I did my program good.
 
 ## Current output
 
@@ -21,33 +21,51 @@ A grade I would expect out of this is a 3.
 
 ## Describe your process.
 
--   What questions, strategies, help from peers or teacher, or thinking got you to this point? _then delete this instruction_
-
-<!--- Delete this comment and add your writing -->
-
+AT first in the beginning of doing this i really didnt know what to do first. Than I realized I needed to start with the first layer which would be the green solid rectangle. I had to figure out what the best color fit would be. Than I have come to a point where I was just layering all these shapes on top of each other to get the image that i wanted. Well the person who had helped me the most in this I would give credit to savannah because we had about the same flag and we had worked together to finish up this professional flag.
 
 ## Explain your code.
+(define SIZE(* 2 50))
+(define HEIGHT(* 5 30))
+(define GRE (make-color 1 65 28))
 
--   Choose a significant part of your program (15 lines max) and paste it below. Do not insert your entire program here. _then delete this instruction_
--   Explain each argument in the code section. _then delete this instruction_
--   Tell us how it functions independently and within the whole program _then delete this instruction_
+(define GREEN (make-color 231 0 19))
 
-* * *
+(define WHITE(make-color 255 255 255))
 
-```
-Insert 10-15 line code section here _then delete this instruction_
-```
+(define REC(rectangle(* 3 150) (* 3 100) "solid" "green"))
 
-* * *
+(define CIR1(circle SIZE "solid" "white" ))
 
--   Explain the code you posted by telling us about each argument.
--   Then tell us how your code section fits into the whole.
+(define CIR2 (circle SIZE "solid" "green"))
  
-<!--- Delete this comment and add your writing -->
+(define STAR( rotate 100 (star (* 5 7 ) "solid" "white")))
 
+well what was so significant about this part of my program would be the beginning since i would make my life so easier when doing th size of ones shape not onlt was that significant but also how I shortened these function names. 
+* * *
+
+``````
+
+* * *
+The code i had given above ewas a huge part in everything because i was showing how the codes can be shortned to makes one life easier when doing so. In each argument I had 
 
 ## Program code
+```
+(define SIZE(* 2 50))
+(define HEIGHT(* 5 30))
+(define GRE (make-color 1 65 28))
 
-```
-Insert entire program here _then delete this instruction_
-```
+(define GREEN (make-color 231 0 19))
+
+(define WHITE(make-color 255 255 255))
+
+(define REC(rectangle(* 3 150) (* 3 100) "solid" "green"))
+
+(define CIR1(circle SIZE "solid" "white" ))
+
+(define CIR2 (circle SIZE "solid" "green"))
+ 
+(define STAR( rotate 100 (star (* 5 7 ) "solid" "white")))
+
+(define FLAG (rectangle(* 2 250)(* 2 150)"outline" "black"))
+
+(put-image STAR 365 200 (put-image CIR2 340 175 (put-image CIR1 310 HEIGHT (put-image REC 350 HEIGHT FLAG))))
